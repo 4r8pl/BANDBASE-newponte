@@ -1,0 +1,454 @@
+digraph G {
+    layout="twopi";  // Puedes probar con "neato" o "fdp" también
+    overlap=scalexy;  // Alternativas: "scalexy" o "false"
+    ratio=0.5;  // Ajustar el tamaño del gráfico automáticamente
+    splines=true;  // Usar líneas curvas en lugar de rectas para mejorar la claridad
+    root = "Farto"; //Centro
+    size="100,5";  // Define un tamaño más ancho
+    sep=0.5;       // Espaciado entre nodos
+    
+
+    // Bandas
+    "Dianhø" [label="Dianhø", shape="hexagon", style="filled", color="#e44d4d"];
+    "Clavo" [label="Clavo", shape="octagon", style="filled", color="#caff70"];
+    "Feiticeira" [label="Feiticeira", shape="octagon", style="filled", color="#caff70"];
+    "Rimshot" [label="Rimshot", shape="octagon", style="filled", color="#caff70"];
+    "Denantes" [label="Denantes", shape="octagon", style="filled", color="#caff70"];
+    "In Vitro" [label="In Vitro", shape="octagon", style="filled", color="#caff70"];
+    "Kathartic" [label="Kathartic", shape="octagon", style="filled", color="#caff70"]; //Antiguo Napalm
+    "Des/tempo" [label="Des/tempo", shape="hexagon", style="filled", color="#e44d4d"];
+    "Mamasuncion" [label="Mamasuncion", shape="octagon", style="filled", color="#caff70"];
+    "Jünne" [label="Jünne", shape="octagon", style="filled", color="#caff70"];
+    "Baja por defunción" [label="Baja por defunción", shape="hexagon", style="filled", color="#e44d4d"];
+    "RadRats" [label="RadRats", shape="hexagon", style="filled", color="#e44d4d"];
+    "Görth" [label="Görth", shape="hexagon", style="filled", color="#e44d4d"]; 
+    "Amnesia digital" [label="Amnesia digital", shape="hexagon", style="filled", color="#e44d4d"];
+    "Sudden Ray of Hope" [label="Sudden Ray of Hope", shape="octagon", style="filled", color="#caff70"];
+    "Nadsat" [label="Nadsat", shape="octagon", style="filled", color="#caff70"];
+    "Bushter" [label="Bushter", shape="hexagon", style="filled", color="#00bfff"];
+    "Terapia de garaje" [label="Terapia de garaje", shape="hexagon", style="filled", color="#e44d4d"];
+    "Jester Day" [label="Jester day", shape="octagon", style="filled", color="#caff70"];
+    "Polla y cojones" [label="Polla y cojones", shape="octagon", style="filled", color="#caff70"]; //nombre provisional aparentemente
+    "Lilith" [label="Lilith", shape="octagon", style="filled", color="#caff70"];
+    "West Bat" [label="WestBat", shape="hexagon", style="filled", color="#e44d4d"];
+    "Scarlet Down" [label="Scarlet Down", shape="hexagon", style="filled", color="#e44d4d"];
+    "Narkotica" [label="Narkotica", shape="hexagon", style="filled", color="#e44d4d"]; //no conozco todos los miembros, hay que preguntar
+    "Grave Situations" [label="Grave Situations", shape="hexagon", style="filled", color="#caff70"];
+    "Destempo si fuera buen grupo" [label="Destempo si fuera buen grupo", shape="hexagon", style="filled", color="#e44d4d"]; //no estoy seguro de si es lo mismo que terapia de garaje
+    "??" [label="??", shape="octagon", style="filled", color="#e44d4d"]; //No sé como se llama la banda ni conozco todos los miembros (ni si está viva), hay que preguntar
+    "Martillo" [label="Martillo", shape="hexagon", style="filled", color="#00bfff"]; //era nombre provisional creo que está registrada con otro (luego busco)
+    "Tranny Cvntbag" [label="Tranny Cvntbag", shape="hexagon", style="filled", color="#00bfff"];
+    "Incandescent Partner" [label="TIncandescent Partner", shape="hexagon", style="filled", color="#00bfff"];
+    "Void's Legion" [label="Void's Legion", shape="octagon", style="filled", color="#caff70"]; //ni idea sobre este grupo xd (investigar)
+    "Los muchachosaurios" [label="Los muchachosaurios", shape="hexagon", style="filled", color="#e44d4d"]; //estoy por no poner esta banda
+    "Ryggan" [label="Ryggan", shape="octagon", style="filled", color="#caff70"];
+    "Deripio" [label="Deripio", shape="octagon", style="filled", color="#caff70"]; 
+    "Kulpables" [label="Kulpables", shape="octagon", style="filled", color="#caff70"];
+    "Eterno Retorno" [label="Eterno Retorno", shape="octagon", style="filled", color="#caff70"];
+    "Rainbow Sheep" [label="rainbow Sheep", shape="octagon", style="filled", color="#caff70"];
+    "Virus T" [label="Virus T", shape="octagon", style="filled", color="#caff70"];
+    "Chakales" [label="Chakales", shape="octagon", style="filled", color="#caff70"];
+    "Virginia Coast" [label="Virginia Coast", shape="octagon", style="filled", color="#caff70"];
+    "Katharsis" [label="Katharsis", shape="octagon", style="filled", color="#caff70"];
+    "Vitor" [label="Vitor", shape="hexagon", style="filled", color="#e44d4d"];
+    "Pacific Kills" [label="Pacific Kills", shape="octagon", style="filled", color="#caff70"];
+    "Olympus" [label="Olympus", shape="hexagon", style="filled", color="#e44d4d"];
+
+    //Sin terminar
+    "Sobako" //Santo(rojo) Acei MariachiC (muerto)
+    "Iron Killers" //EduMurillo Dani Paco JuaTarrus Diejunkher
+
+
+    // Miembros
+    "Luis" [label="Luis", shape="box", style="filled", color="grey"]; //dianho - feiticeira - rimshot
+    "Iván" [label="Iván", shape="box", style="filled", color="grey"]; //dianho
+    "Karmen" [label="Karmen", shape="box", style="filled", color="grey"]; //dianho - martillo - nadsat
+    "Adrián" [label="Adrián", shape="box", style="filled", color="grey"]; //dianho - clavo - denantes - incandescent partner - baja por defunción -  amnesia digital - martillo - bpd
+    "David" [label="David", shape="box", style="filled", color="grey"]; //dianho
+
+    "Alicia" [label="Alicia", shape="box", style="filled", color="grey"]; //clavo - radrats
+    "Karmiña" [label="Karmiña", shape="box", style="filled", color="grey"]; //clavo - terapia de garaje - destempo si fuera buen grupo - radrats
+    "Alba" [label="Alba", shape="box", style="filled", color="grey"]; //clavo
+    "Ivo" [label="Ivo", shape="box", style="filled", color="grey"]; //clavo - radrats - destempo si fuera buen grupo
+    "Laura" [label="Laura", shape="box", style="filled", color="grey"]; //clavo
+
+    "Santo" [label="Santo", shape="box", style="filled", color="grey"]; //feiticeira - in vitro - rimshot - no name
+    "Sofía" [label="Sofía", shape="box", style="filled", color="grey"]; //feiticeira
+    "Jorge" [label="Jorge", shape="box", style="filled", color="grey"]; //feiticeira - Grave Situations
+    "Farto" [label="Farto", shape="box", style="filled", color="grey"]; //feiticeira - kathartic - amnesia digital - scarlet down - lilith - junne - rimshot - Los muchachosaurios - bpd - pacific kills - olympus
+
+    "Mateo" [label="Mateo", shape="box", style="filled", color="grey"]; //rimshot - gorth
+
+    "Ela" [label="Ela", shape="box", style="filled", color="grey"]; //denantes - martillo
+    "Anxo" [label="Anxo", shape="box", style="filled", color="grey"]; //denantes - incandescent partner
+    "Sebastián" [label="Sebastián", shape="box", style="filled", color="grey"]; //denantes - incandescent partner
+    "Pol" [label="Pol", shape="box", style="filled", color="grey"]; //denantes - Los muchachosaurios
+    "LauraD" [label="LauraD", shape="box", style="filled", color="grey"]; //denantes
+    "Alan" [label="Alan", shape="box", style="filled", color="grey"]; //denantes - incandescent partner - gorth
+    "Cesar" [label="Cesar", shape="box", style="filled", color="grey"]; //denantes - ??
+
+    "Dante" [label="Dante", shape="box", style="filled", color="grey"]; //in vitro
+
+    "Alex" [label="Alex", shape="box", style="filled", color="grey"]; //kathartic - narkotica
+    "VictorIV" [label="VictorIV", shape="box", style="filled", color="grey"]; //kathartic
+    "Antón" [label="Antón", shape="box", style="filled", color="grey"]; //kathartic
+    "Elvis" [label="Elvis", shape="box", style="filled", color="grey"]; //kathartic - voids legion
+
+    "Manu" [label="Manu", shape="box", style="filled", color="grey"] //destempo - ?? - terapia de garaje 
+    "Ricardo" [label="Ricardo", shape="box", style="filled", color="grey"] //destempo - polla y cojones - terapia de garaje 
+    "Lino" [label="Lino", shape="box", style="filled", color="grey"] //destempo - polla y cojones
+    "Ahinoa" [label="Ahinoa", shape="box", style="filled", color="grey"] //destempo
+    "Claudia" [label="Claudia", shape="box", style="filled", color="grey"] //destempo
+
+    "Brais" [label="Brais", shape="box", style="filled", color="grey"] //mamasunción
+    "BraisB" [label="BraisB", shape="box", style="filled", color="grey"] //mamasunción
+    "Toño" [label="Toño", shape="box", style="filled", color="grey"] //mamasunción
+    "Martín" [label="Martín", shape="box", style="filled", color="grey"] //mamasunción
+
+    "Abollado" [label="Abollado", shape="box", style="filled", color="grey"] //junne - bpd - amnesia digital - tranny cvntbag - lilith - radrats - terapia de garaje
+    "Rubén" [label="Rubén", shape="box", style="filled", color="grey"] //junne - west bat
+    "Dorian" [label="Dorian", shape="box", style="filled", color="grey"] //junne - west bat
+    "PabloP" [label="PabloP", shape="box", style="filled", color="grey"] //junne - amnesia digital - tranny cvntbag
+    "Victor" [label="Victor", shape="box", style="filled", color="grey"] //junne - gorth - amnesia digital - tranny cvntbag - bushter
+
+    "Bruno" [label="Bruno", shape="box", style="filled", color="grey"] //gorth - bushter
+
+    "Lia" [label="Lia", shape="box", style="filled", color="grey"] //amnesia digital - scarlet down - lilith
+    "Aki" [label="Aki", shape="box", style="filled", color="grey"] //amnesia digital - tranny cvntbag
+
+    "DorianG" [label="DorianG", shape="box", style="filled", color="grey"] //sroh
+    "Sen" [label="Sen", shape="box", style="filled", color="grey"] //sroh - incandescent partner
+    "Pablo" [label="Pablo", shape="box", style="filled", color="grey"] //sroh
+    "Uxio" [label="Uxio", shape="box", style="filled", color="grey"] //sroh
+    "Eneko" [label="Eneko", shape="box", style="filled", color="grey"] //sroh
+    "Rei" [label="Rei", shape="box", style="filled", color="grey"] //sroh
+
+    "BrunoB" [label="BrunoB", shape="box", style="filled", color="grey"] //nadsat - jester day
+    "Nico" [label="Nico", shape="box", style="filled", color="grey"] //nadsat
+    "Amelia" [label="Amelia", shape="box", style="filled", color="grey"] //nadsat
+    "Javi" [label="Javi", shape="box", style="filled", color="grey"] //nadsat - jester day
+
+    "???" [label="???", shape="box", style="filled", color="grey"] //terapia de garaje
+    "Breogán" [label="Breogán", shape="box", style="filled", color="grey"] //terapia de garaje
+
+    "Hugo" [label="Hugo", shape="box", style="filled", color="grey"] //polla y cojones
+
+    "Iago" [label="Iago", shape="box", style="filled", color="grey"] //west bat
+
+    "????" [label="????", shape="box", style="filled", color="grey"] //narkotica
+
+    "Haize" [label="????", shape="box", style="filled", color="grey"] //grave situations
+    "Pablonibe" [label="????", shape="box", style="filled", color="grey"] //grave situations
+
+    "Oli" [label="Oli", shape="box", style="filled", color="grey"] //destempo si fuera buen grupo - tranny cvntbag
+
+    "Monoperro" [label="Monoperro", shape="box", style="filled", color="grey"] //??
+
+    "Aythami" [label="Aythami", shape="box", style="filled", color="grey"] //Martillo
+
+    "Tolleito" [label="Tolleito", shape="box", style="filled", color="grey"] //tranny cvntbag
+
+    "DavidP" [label="DavidP", shape="box", style="filled", color="grey"] //muchachosaurios
+    "Correa" [label="Correa", shape="box", style="filled", color="grey"] //muchachosaurios
+
+    "LeoPozo" [label="LeoPozo", shape="box", style="filled", color="grey"] //ryggan
+    "Ryzos" [label="Ryzos", shape="box", style="filled", color="grey"] //ryggan
+    "AdriPantera" [label="AdriPantera", shape="box", style="filled", color="grey"] //ryggan - deripio
+    // cambiar AdriPanteras por AdrianEsobar
+
+    "PabloNicholas" [label="PabloNicholas", shape="box", style="filled", color="grey"] //deripio
+    "RobertMatei" [label="RobertMatei", shape="box", style="filled", color="grey"] //deripio
+    "Andrés" [label="Andrés", shape="box", style="filled", color="grey"] //deripio - no name
+
+    "IkerE" [label="IkerE", shape="box", style="filled", color="grey"] //kulpables - eterno retorno
+    "Miguel" [label="Miguel", shape="box", style="filled", color="grey"] //kulpables 
+    "VictorK" [label="VictorK", shape="box", style="filled", color="grey"] //kulpables - no name
+    "KenauR" [label="KenauR", shape="box", style="filled", color="grey"] //kulpables - rainbow sheep
+
+    "Adam" [label="Adam", shape="box", style="filled", color="grey"] //eterno retorno
+    "Lara" [label="Lara", shape="box", style="filled", color="grey"] //eterno retorno
+    "PabloDíez" [label="PabloDíez", shape="box", style="filled", color="grey"] //eterno retorno
+    "RocíoBarroso" [label="RocíoBarroso", shape="box", style="filled", color="grey"] //eterno retorno
+    "AdriánER" [label="AdriánER", shape="box", style="filled", color="grey"] //eterno retorno
+    "Riri" [label="Riri", shape="box", style="filled", color="grey"] //eterno retorno
+
+    "AlbertoRull" [label="AlbertoRull", shape="box", style="filled", color="grey"] //rainbow sheep
+    "Alfajor" [label="Alfajor", shape="box", style="filled", color="grey"] //rainbow sheep
+    "Saragzm" [label="Saragzm", shape="box", style="filled", color="grey"] //rainbow sheep
+    "RafaDiaz" [label="RafaDiaz", shape="box", style="filled", color="grey"] //rainbow sheep
+    "GuitarLatorraca" [label="GuitarLatorraca", shape="box", style="filled", color="grey"] //rainbow sheep
+
+    "AlexT" [label="AlexT", shape="box", style="filled", color="grey"] //virus t
+    "YusufT" [label="YusufT", shape="box", style="filled", color="grey"] //virus t
+    "AndreaSnoopy" [label="AndreaSnoopy", shape="box", style="filled", color="grey"] //virus t
+    "AlvaroCheca" [label="AlvaroCheca", shape="box", style="filled", color="grey"] //virus t
+    "YunT" [label="YunT", shape="box", style="filled", color="grey"] //virus t
+
+    "AlexSozer" [label="AlexSozer", shape="box", style="filled", color="grey"] //chakales
+    "MatthewMilner" [label="MatthewMilner", shape="box", style="filled", color="grey"] //chakales - virginia coast
+    "AlexCebri" [label="AlexCebri", shape="box", style="filled", color="grey"] //chakales
+
+    "ArialWax" [label="ArialWax", shape="box", style="filled", color="grey"] //virginia coast
+    "BrigidPellicano" [label="BrigidPellicano", shape="box", style="filled", color="grey"] //virginia coast
+    "DanBrophy" [label="DanBrophy", shape="box", style="filled", color="grey"] //virginia coast
+    "WilfPearce" [label="WilfPearce", shape="box", style="filled", color="grey"] //virginia coast
+    "KyeOhagan" [label="KyeOhagan", shape="box", style="filled", color="grey"] //virginia coast
+
+    "AníbalRomerales" [label="AníbalRomerales", shape="box", style="filled", color="grey"] //katharsis
+    "JorgeIvo" [label="JorgeIvo", shape="box", style="filled", color="grey"] //katharsis
+    "DaniEdrich" [label="DaniEdrich", shape="box", style="filled", color="grey"] //katharsis
+    "SoyaCedo" [label="SoyaCedo", shape="box", style="filled", color="grey"] //katharsis
+
+    "EduMurillo" [label="EduMurillo", shape="box", style="filled", color="grey"] //no name
+    "Roy" [label="Roy", shape="box", style="filled", color="grey"] //no name
+    "Héctor"  [label="Héctor", shape="box", style="filled", color="grey"] //no name
+
+    "Acei" [label="Acei", shape="box", style="filled", color="grey"] //pacific kills - olympus
+    "PaxTv" [label="PaxTv", shape="box", style="filled", color="grey"] //pacific kills
+    "MarcosRueda" [label="MarcosRueda", shape="box", style="filled", color="grey"] //pacific kills
+
+    "Ritchie" [label="Ritchie", shape="box", style="filled", color="grey"] //olympus
+    "Tommy" [label="Tommy", shape="box", style="filled", color="grey"] //olympus
+    "?" [label="?", shape="box", style="filled", color="grey"] //olympus
+
+
+    // Conexiones con estilo especificado
+    
+    "Dianhø" -> "Luis" [label=" ", color="green", arrowhead="dot"];
+    "Dianhø" -> "Iván" [label=" ", color="red", arrowhead="dot"];
+    "Dianhø" -> "Adrián" [label=" ", color="green", arrowhead="dot"];
+    "Dianhø" -> "Karmen" [label=" ", color="red", arrowhead="dot"];
+    "Dianhø" -> "David" [label=" ", color="red", arrowhead="dot"];
+
+    "Clavo" -> "Adrián" [label=" ", color="green", arrowhead="dot"];
+    "Clavo" -> "Karmiña" [label=" ", color="green", arrowhead="dot"];
+    "Clavo" -> "Alicia" [label=" ", color="green", arrowhead="dot"];
+    "Clavo" -> "Alba" [label=" ", color="green", arrowhead="dot"];
+    "Clavo" -> "Ivo" [label=" ", color="red", arrowhead="dot"];
+    "Clavo" -> "Laura" [label=" ", color="red", arrowhead="dot"];
+
+    "Feiticeira" -> "Luis" [label=" ", color="green", arrowhead="dot"];
+    "Feiticeira" -> "Sofía" [label=" ", color="green", arrowhead="dot"];
+    "Feiticeira" -> "Santo" [label=" ", color="green", arrowhead="dot"];
+    "Feiticeira" -> "Jorge" [label=" ", color="green", arrowhead="dot"];
+    "Feiticeira" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+
+    "Rimshot" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Rimshot" -> "Mateo" [label=" ", color="red", arrowhead="dot"];
+    "Rimshot" -> "Luis" [label=" ", color="green", arrowhead="dot"];
+    "Rimshot" -> "Santo" [label=" ", color="green", arrowhead="dot"];
+
+    "Denantes" -> "Adrián" [label=" ", color="red", arrowhead="dot"];
+    "Denantes" -> "Ela" [label=" ", color="green", arrowhead="dot"];
+    "Denantes" -> "Anxo" [label=" ", color="green", arrowhead="dot"];
+    "Denantes" -> "Sebastián" [label=" ", color="green", arrowhead="dot"];
+    "Denantes" -> "Pol" [label=" ", color="green", arrowhead="dot"];
+    "Denantes" -> "Alan" [label=" ", color="red", arrowhead="dot"];
+    "Denantes" -> "LauraD" [label=" ", color="green", arrowhead="dot"];
+    "Denantes" -> "Cesar" [label=" ", color="green", arrowhead="dot"];
+
+    "In Vitro" -> "Santo" [label=" ", color="green", arrowhead="dot"];
+    "In Vitro" -> "Dante" [label=" ", color="green", arrowhead="dot"];
+
+    "Kathartic" -> "Alex" [label=" ", color="green", arrowhead="dot"];
+    "Kathartic" -> "Elvis" [label=" ", color="green", arrowhead="dot"];
+    "Kathartic" -> "VictorIV" [label=" ", color="red", arrowhead="dot"];
+    "Kathartic" -> "Antón" [label=" ", color="green", arrowhead="dot"];
+    "Kathartic" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+
+    "Des/tempo" -> "Karmiña" [label=" ", color="red", arrowhead="dot"];
+    "Des/tempo" -> "Manu" [label=" ", color="red", arrowhead="dot"];
+    "Des/tempo" -> "Ricardo" [label=" ", color="red", arrowhead="dot"];
+    "Des/tempo" -> "Lino" [label=" ", color="red", arrowhead="dot"];
+    "Des/tempo" -> "Ahinoa" [label=" ", color="red", arrowhead="dot"];
+    "Des/tempo" -> "Claudia" [label=" ", color="red", arrowhead="dot"];
+
+    "Mamasuncion" -> "Brais" [label=" ", color="green", arrowhead="dot"];
+    "Mamasuncion" -> "BraisB" [label=" ", color="red", arrowhead="dot"];
+    "Mamasuncion" -> "Martín" [label=" ", color="green", arrowhead="dot"];
+    "Mamasuncion" -> "Toño" [label=" ", color="green", arrowhead="dot"];
+
+    "Jünne" -> "Rubén" [label=" ", color="green", arrowhead="dot"];
+    "Jünne" -> "Victor" [label=" ", color="green", arrowhead="dot"];
+    "Jünne" -> "Dorian" [label=" ", color="green", arrowhead="dot"];
+    "Jünne" -> "PabloP" [label=" ", color="green", arrowhead="dot"];
+    "Jünne" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Jünne" -> "Abollado" [label=" ", color="green", arrowhead="dot"];
+
+    "Baja por defunción" -> "Abollado" [label=" ", color="red", arrowhead="dot"];
+    "Baja por defunción" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Baja por defunción" -> "Adrián" [label=" ", color="red", arrowhead="dot"];
+
+    "RadRats" -> "Abollado" [label=" ", color="red", arrowhead="dot"];
+    "RadRats" -> "Alicia" [label=" ", color="red", arrowhead="dot"];
+    "RadRats" -> "Karmiña" [label=" ", color="red", arrowhead="dot"];
+    "RadRats" -> "Ivo" [label=" ", color="red", arrowhead="dot"];
+
+    "Görth" -> "Mateo" [label=" ", color="red", arrowhead="dot"];
+    "Görth" -> "Alan" [label=" ", color="red", arrowhead="dot"];
+    "Görth" -> "Bruno" [label=" ", color="red", arrowhead="dot"];
+    "Görth" -> "Victor" [label=" ", color="red", arrowhead="dot"];
+    "Görth" -> "Rubén" [label=" ", color="red", arrowhead="dot"];
+
+    "Amnesia digital" -> "Abollado" [label=" ", color="red", arrowhead="dot"];
+    "Amnesia digital" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Amnesia digital" -> "Lia" [label=" ", color="red", arrowhead="dot"];
+    "Amnesia digital" -> "Adrián" [label=" ", color="red", arrowhead="dot"];
+    "Amnesia digital" -> "PabloP" [label=" ", color="red", arrowhead="dot"];
+    "Amnesia digital" -> "Victor" [label=" ", color="red", arrowhead="dot"];
+    "Amnesia digital" -> "Aki" [label=" ", color="red", arrowhead="dot"];
+
+    "Sudden Ray of Hope"  -> "Rei" [label=" ", color="green", arrowhead="dot"];
+    "Sudden Ray of Hope"  -> "Sen" [label=" ", color="green", arrowhead="dot"];
+    "Sudden Ray of Hope"  -> "Pablo" [label=" ", color="red", arrowhead="dot"];
+    "Sudden Ray of Hope"  -> "Uxio" [label=" ", color="red", arrowhead="dot"];
+    "Sudden Ray of Hope"  -> "Eneko" [label=" ", color="green", arrowhead="dot"];
+    "Sudden Ray of Hope"  -> "DorianG" [label=" ", color="green", arrowhead="dot"];
+
+    "Nadsat" -> "Karmen" [label=" ", color="green", arrowhead="dot"];
+    "Nadsat" -> "Nico" [label=" ", color="green", arrowhead="dot"];
+    "Nadsat" -> "BrunoB" [label=" ", color="green", arrowhead="dot"];
+    "Nadsat" -> "Amelia" [label=" ", color="green", arrowhead="dot"];
+    "Nadsat" -> "Javi" [label=" ", color="green", arrowhead="dot"];
+
+    "Bushter" -> "Bruno" [label=" ", color="green", arrowhead="dot"];
+    "Bushter" -> "Victor" [label=" ", color="green", arrowhead="dot"];
+
+    "Terapia de garaje" -> "Manu" [label=" ", color="red", arrowhead="dot"];
+    "Terapia de garaje" -> "Abollado" [label=" ", color="red", arrowhead="dot"];
+    "Terapia de garaje" -> "Breogán" [label=" ", color="red", arrowhead="dot"];
+    "Terapia de garaje" -> "Ricardo" [label=" ", color="red", arrowhead="dot"];
+    "Terapia de garaje" -> "Karmiña" [label=" ", color="red", arrowhead="dot"];
+    "Terapia de garaje" -> "???" [label=" ", color="red", arrowhead="dot"]; //preguntar por este
+
+    "Jester Day" -> "Javi" [label=" ", color="green", arrowhead="dot"];
+    "Jester Day" -> "BrunoB" [label=" ", color="green", arrowhead="dot"];
+
+    "Polla y cojones" -> "Lino" [label=" ", color="green", arrowhead="dot"];
+    "Polla y cojones" -> "Ricardo" [label=" ", color="green", arrowhead="dot"];
+    "Polla y cojones" -> "Hugo" [label=" ", color="green", arrowhead="dot"]; //No se llama Hugo xd
+
+    "Lilith" -> "Lia" [label=" ", color="green", arrowhead="dot"];
+    "Lilith" -> "Farto" [label=" ", color="green", arrowhead="dot"];
+    "Lilith" -> "Abollado" [label=" ", color="green", arrowhead="dot"];
+
+    "West Bat" -> "Iago" [label=" ", color="red", arrowhead="dot"];
+    "West Bat" -> "Rubén" [label=" ", color="red", arrowhead="dot"];
+    "West Bat" -> "Dorian" [label=" ", color="red", arrowhead="dot"];
+
+    "Scarlet Down" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Scarlet Down" -> "Lia" [label=" ", color="red", arrowhead="dot"];
+
+    "Narkotica" -> "Alex" [label=" ", color="red", arrowhead="dot"];
+    "Narkotica" -> "????" [label=" ", color="red", arrowhead="dot"]; //preguntar por este
+
+    "Grave Situations" -> "Haize" [label=" ", color="red", arrowhead="dot"];
+    "Grave Situations" -> "Jorge" [label=" ", color="red", arrowhead="dot"];
+    "Grave Situations" -> "Pablonibe" [label=" ", color="red", arrowhead="dot"];
+
+    "Destempo si fuera buen grupo" -> "Karmiña" [label=" ", color="red", arrowhead="dot"];
+    "Destempo si fuera buen grupo" -> "Oli" [label=" ", color="red", arrowhead="dot"];
+    "Destempo si fuera buen grupo" -> "Ivo" [label=" ", color="red", arrowhead="dot"];
+
+    "??" -> "Cesar" [label=" ", color="red", arrowhead="dot"];
+    "??" -> "Manu" [label=" ", color="red", arrowhead="dot"];
+    "??" -> "Monoperro" [label=" ", color="red", arrowhead="dot"];
+    //preguntar nombre (y si puede ser nombre real del nazi)
+
+    "Martillo" -> "Ela" [label=" ", color="red", arrowhead="dot"];
+    "Martillo" -> "Karmen" [label=" ", color="red", arrowhead="dot"];
+    "Martillo" -> "Adrián" [label=" ", color="red", arrowhead="dot"];
+    "Martillo" -> "Aythami" [label=" ", color="red", arrowhead="dot"];
+
+    "Tranny Cvntbag" -> "Tolleito" [label=" ", color="green", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Abollado" [label=" ", color="green", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Oli" [label=" ", color="green", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Lia" [label=" ", color="green", arrowhead="dot"];
+    "Tranny Cvntbag" -> "PabloP" [label=" ", color="green", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Victor" [label=" ", color="green", arrowhead="dot"];
+    
+    "Incandescent Partner" -> "Sen" [label=" ", color="red", arrowhead="dot"];
+    "Incandescent Partner" -> "Sebastián" [label=" ", color="red", arrowhead="dot"];
+    "Incandescent Partner" -> "Adrián" [label=" ", color="red", arrowhead="dot"];
+    "Incandescent Partner" -> "Anxo" [label=" ", color="red", arrowhead="dot"];
+    "Incandescent Partner" -> "Alan" [label=" ", color="red", arrowhead="dot"];
+
+    "Void's Legion" -> "Elvis" [label=" ", color="green", arrowhead="dot"];
+    //faltan todos los miembros de la banda de este tio
+
+    "Los muchachosaurios" -> "Pol" [label=" ", color="red", arrowhead="dot"];
+    "Los muchachosaurios" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Los muchachosaurios" -> "DavidP" [label=" ", color="red", arrowhead="dot"];
+    "Los muchachosaurios" -> "Correa" [label=" ", color="red", arrowhead="dot"];
+    //xd esta banda
+
+    "Ryggan" -> "AdriPantera" [label=" ", color="green", arrowhead="dot"];
+    "Ryggan" -> "LeoPozo" [label=" ", color="green", arrowhead="dot"];
+    "Ryggan" -> "Ryzos" [label=" ", color="green", arrowhead="dot"];
+
+    "Deripio" -> "PabloNicholas" [label=" ", color="green", arrowhead="dot"];
+    "Deripio" -> "Andrés" [label=" ", color="green", arrowhead="dot"];
+    "Deripio" -> "AdriPantera" [label=" ", color="green", arrowhead="dot"];
+    "Deripio" -> "RobertMatei" [label=" ", color="green", arrowhead="dot"];
+
+    "Kulpables" -> "IkerE" [label=" ", color="green", arrowhead="dot"];
+    "Kulpables" -> "KenauR" [label=" ", color="green", arrowhead="dot"];
+    "Kulpables" -> "VictorK" [label=" ", color="green", arrowhead="dot"];
+    "Kulpables" -> "Miguel" [label=" ", color="green", arrowhead="dot"];
+
+    "Eterno Retorno" -> "IkerE" [label=" ", color="green", arrowhead="dot"];
+    "Eterno Retorno" -> "Lara" [label=" ", color="green", arrowhead="dot"];
+    "Eterno Retorno" -> "PabloDíez" [label=" ", color="green", arrowhead="dot"];
+    "Eterno Retorno" -> "RocíoBarroso" [label=" ", color="green", arrowhead="dot"];
+    "Eterno Retorno" -> "Riri" [label=" ", color="green", arrowhead="dot"];
+    "Eterno Retorno" -> "AdriánER" [label=" ", color="green", arrowhead="dot"];
+    "Eterno Retorno" -> "Adam" [label=" ", color="green", arrowhead="dot"];
+
+    "Rainbow Sheep" -> "KenauR" [label=" ", color="green", arrowhead="dot"];
+    "Rainbow Sheep" -> "Saragzm" [label=" ", color="green", arrowhead="dot"];
+    "Rainbow Sheep" -> "Alfajor" [label=" ", color="green", arrowhead="dot"];
+    "Rainbow Sheep" -> "GuitarLatorraca" [label=" ", color="green", arrowhead="dot"];
+    "Rainbow Sheep" -> "AlbertoRull" [label=" ", color="green", arrowhead="dot"];
+    "Rainbow Sheep" -> "RafaDiaz" [label=" ", color="green", arrowhead="dot"];
+
+    "Virus T" -> "YusufT" [label=" ", color="green", arrowhead="dot"];
+    "Virus T" -> "AlexT" [label=" ", color="green", arrowhead="dot"];
+    "Virus T" -> "YunT" [label=" ", color="green", arrowhead="dot"];
+    "Virus T" -> "AndreaSnoopy" [label=" ", color="green", arrowhead="dot"];
+    "Virus T" -> "AlvaroCheca" [label=" ", color="green", arrowhead="dot"];
+
+    "Chakales" -> "MatthewMilner" [label=" ", color="green", arrowhead="dot"];
+    "Chakales" -> "AlexCebri" [label=" ", color="green", arrowhead="dot"];
+    "Chakales" -> "AlexSozer" [label=" ", color="green", arrowhead="dot"];
+
+    "Virginia Coast" -> "ArialWax" [label=" ", color="green", arrowhead="dot"];
+    "Virginia Coast" -> "BrigidPellicano" [label=" ", color="green", arrowhead="dot"];
+    "Virginia Coast" -> "KyeOhagan" [label=" ", color="green", arrowhead="dot"];
+    "Virginia Coast" -> "WilfPearce" [label=" ", color="green", arrowhead="dot"];
+    "Virginia Coast" -> "MatthewMilner" [label=" ", color="green", arrowhead="dot"];
+    "Virginia Coast" -> "DanBrophy" [label=" ", color="red", arrowhead="dot"];
+
+    "Katharsis" -> "AníbalRomerales" [label=" ", color="green", arrowhead="dot"];
+    "Katharsis" -> "DaniEdrich" [label=" ", color="green", arrowhead="dot"];
+    "Katharsis" -> "JorgeIvo" [label=" ", color="green", arrowhead="dot"];
+    "Katharsis" -> "SoyaCedo" [label=" ", color="green", arrowhead="dot"];
+
+    "Vitor" -> "VictorK" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "EduMurillo" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "Roy" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "Santo" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "Héctor" [label=" ", color="red", arrowhead="dot"];
+
+    "Pacific Kills" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Pacific Kills" -> "Acei" [label=" ", color="green", arrowhead="dot"];
+    "Pacific Kills" -> "PaxTv" [label=" ", color="green", arrowhead="dot"];
+    "Pacific Kills" -> "MarcosRueda" [label=" ", color="green", arrowhead="dot"];
+
+    "Olympus" -> "Farto" [label=" ", color="red", arrowhead="dot"];
+    "Olympus" -> "Acei" [label=" ", color="red", arrowhead="dot"];
+    "Olympus" -> "?" [label=" ", color="red", arrowhead="dot"];
+    "Olympus" -> "Ritchie" [label=" ", color="red", arrowhead="dot"];
+    "Olympus" -> "Tommy" [label=" ", color="red", arrowhead="dot"];
+    
+}
+
