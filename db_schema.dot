@@ -53,10 +53,10 @@ digraph G {
     "Vitor" [label="Vitor", shape="hexagon", style="filled", color="#e44d4d"];
     "Pacific Kills" [label="Pacific Kills", shape="octagon", style="filled", color="#caff70"];
     "Olympus" [label="Olympus", shape="hexagon", style="filled", color="#e44d4d"];
+    "Sobako" [label="Olympus", shape="hexagon", style="filled", color="#e44d4d"];
+    "Iron Killers" [label="Pacific Kills", shape="hexagon", style="filled", color="#caff70"];
 
     //Sin terminar
-    "Sobako" //Santo(rojo) Acei MariachiC (muerto)
-    "Iron Killers" //EduMurillo Dani Paco JuaTarrus Diejunkher
     "Scratch" //Pablo Manu DiegoAlejandro
     "RabiaCivil" //DiegoAlejandro Zero 
     "NoisyRequiem" //AlbaLodBrok EmmaCyano DavidPX MiguelAmputación
@@ -72,9 +72,10 @@ digraph G {
     "Los Fuzz Faces" //RodrigoCotar ManuelFariñaCasares ÓscarGallagher YagoAlarcónCarballa  PedroIgorMartínez(ya no está)
     "CarpoTributo" //RodrigoCotar NicoGatoPerdido CristianCastroMoro
     "Niño Verdugo" //NicoGatoPerdido JorgeAndrésSerrano
-    "Ulex" //Mosnica Quintela XianCastro Tomasiño  ESTUVO @hoviteha alias yaidukar (lo conocen karmen y karmiña)
+    "Ulex" //Mosnica Quintela XianCastro Tomasiño  ESTUVO @hoviteha alias yaidukar(rojo) (lo conocen karmen y karmiña)
     
     "La DGT" //ÓscarDGT YoelDGT MiguelDGT
+    "Los super menas"
     "Eskravos" //EloiAbaloduro Uxía Noidentificado Noidentificado Noidentificado NoaLópez?
     "Brigada Moreneta" //OtPascual Noidentificado Noidentificado Noidentificado
     "Hollow Empty Minds" //OtPascual MarcRamírezCañabate HenrySalvat VíctorTorrent Noidentificado
@@ -288,6 +289,13 @@ digraph G {
     "Tommy" [label="Tommy", shape="box", style="filled", color="grey"] //olympus
     "?" [label="?", shape="box", style="filled", color="grey"] //olympus
 
+    "MariachiC" [label="?", shape="box", style="filled", color="grey"] //sobako
+
+    "Dani" [label="Dani", shape="box", style="filled", color="grey"] //iron killers
+    "Paco" [label="Paco", shape="box", style="filled", color="grey"] //iron killers
+    "JuaTarrus" [label="JuaTarrus", shape="box", style="filled", color="grey"] //iron killers
+    "Diejunkher" [label="Diejunkher", shape="box", style="filled", color="grey"] //iron killers
+
 
     // Conexiones con estilo especificado
     
@@ -311,7 +319,7 @@ digraph G {
     "Feiticeira" -> "Farto" [label=" ", color="red", arrowhead="dot"];
 
     "Rimshot" -> "Farto" [label=" ", color="red", arrowhead="dot"];
-    "Rimshot" -> "Mateo" [label=" ", color="red", arrowhead="dot"];
+    "Rimshot" -> "Mateo" [label=" ", color="green", arrowhead="dot"];
     "Rimshot" -> "Luis" [label=" ", color="green", arrowhead="dot"];
     "Rimshot" -> "Santo" [label=" ", color="green", arrowhead="dot"];
 
@@ -526,6 +534,16 @@ digraph G {
     "Olympus" -> "?" [label=" ", color="red", arrowhead="dot"];
     "Olympus" -> "Ritchie" [label=" ", color="red", arrowhead="dot"];
     "Olympus" -> "Tommy" [label=" ", color="red", arrowhead="dot"];
+
+    "Sobako" -> "MariachiC" [label=" ", color="red", arrowhead="dot"];
+    "Sobako" -> "Santo" [label=" ", color="red", arrowhead="dot"];
+    "Sobako" -> "Acei" [label=" ", color="red", arrowhead="dot"]; 
+    
+    "Iron Killers" -> "Dani" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "Paco" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "JuaTarrus" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "Diejunkher" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "EduMurillo" [label=" ", color="green", arrowhead="dot"];
     
 }
 
