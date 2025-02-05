@@ -3,4 +3,3 @@ Relationship map of individuals who have been or are currently in bands within t
 
 ## Latest Graph
 ![Graph](./img/graph1.png)
-<img src = "./img/graph1.png" style = "width= 50px">
