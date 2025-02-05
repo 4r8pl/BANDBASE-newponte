@@ -1,46 +1,37 @@
 digraph G {
-    layout="twopi";  // Puedes probar con "neato" o "fdp" también
-    overlap=scalexy;  // Alternativas: "scalexy" o "false"
-    ratio=0.5;  // Ajustar el tamaño del gráfico automáticamente
-    splines=true;  // Usar líneas curvas en lugar de rectas para mejorar la claridad
-    root = "Farto"; //Centro
-    size="100,5";  // Define un tamaño más ancho
-    sep=0.5;       // Espaciado entre nodos
-    
-
     // Bandas
-    "Dianhø" [label="Dianhø", shape="hexagon", style="filled", color="#e44d4d"];
+    "Dianhø" [label="Dianhø", shape="ellipse", style="filled", color="#e44d4d"];
     "Clavo" [label="Clavo", shape="octagon", style="filled", color="#caff70"];
     "Feiticeira" [label="Feiticeira", shape="octagon", style="filled", color="#caff70"];
     "Rimshot" [label="Rimshot", shape="octagon", style="filled", color="#caff70"];
     "Denantes" [label="Denantes", shape="octagon", style="filled", color="#caff70"];
     "In Vitro" [label="In Vitro", shape="octagon", style="filled", color="#caff70"];
     "Kathartic" [label="Kathartic", shape="octagon", style="filled", color="#caff70"]; //Antiguo Napalm
-    "Des/tempo" [label="Des/tempo", shape="hexagon", style="filled", color="#e44d4d"];
+    "Des/tempo" [label="Des/tempo", shape="ellipse", style="filled", color="#e44d4d"];
     "Mamasuncion" [label="Mamasuncion", shape="octagon", style="filled", color="#caff70"];
     "Jünne" [label="Jünne", shape="octagon", style="filled", color="#caff70"];
-    "Baja por defunción" [label="Baja por defunción", shape="hexagon", style="filled", color="#e44d4d"];
-    "RadRats" [label="RadRats", shape="hexagon", style="filled", color="#e44d4d"];
-    "Görth" [label="Görth", shape="hexagon", style="filled", color="#e44d4d"]; 
-    "Amnesia digital" [label="Amnesia digital", shape="hexagon", style="filled", color="#e44d4d"];
+    "Baja por defunción" [label="Baja por defunción", shape="ellipse", style="filled", color="#e44d4d"];
+    "RadRats" [label="RadRats", shape="ellipse", style="filled", color="#e44d4d"];
+    "Görth" [label="Görth", shape="ellipse", style="filled", color="#e44d4d"]; 
+    "Amnesia digital" [label="Amnesia digital", shape="ellipse", style="filled", color="#e44d4d"];
     "Sudden Ray of Hope" [label="Sudden Ray of Hope", shape="octagon", style="filled", color="#caff70"];
     "Nadsat" [label="Nadsat", shape="octagon", style="filled", color="#caff70"];
-    "Bushter" [label="Bushter", shape="hexagon", style="filled", color="#00bfff"];
-    "Terapia de garaje" [label="Terapia de garaje", shape="hexagon", style="filled", color="#e44d4d"];
+    "Bushter" [label="Bushter", shape="ellipse", style="filled", color="#00bfff"];
+    "Terapia de garaje" [label="Terapia de garaje", shape="ellipse", style="filled", color="#e44d4d"];
     "Jester Day" [label="Jester day", shape="octagon", style="filled", color="#caff70"];
     "Polla y cojones" [label="Polla y cojones", shape="octagon", style="filled", color="#caff70"]; //nombre provisional aparentemente
     "Lilith" [label="Lilith", shape="octagon", style="filled", color="#caff70"];
-    "West Bat" [label="WestBat", shape="hexagon", style="filled", color="#e44d4d"];
-    "Scarlet Down" [label="Scarlet Down", shape="hexagon", style="filled", color="#e44d4d"];
-    "Narkotica" [label="Narkotica", shape="hexagon", style="filled", color="#e44d4d"]; //no conozco todos los miembros, hay que preguntar
-    "Grave Situations" [label="Grave Situations", shape="hexagon", style="filled", color="#caff70"];
-    "Destempo si fuera buen grupo" [label="Destempo si fuera buen grupo", shape="hexagon", style="filled", color="#e44d4d"]; //no estoy seguro de si es lo mismo que terapia de garaje
+    "West Bat" [label="WestBat", shape="ellipse", style="filled", color="#e44d4d"];
+    "Scarlet Down" [label="Scarlet Down", shape="ellipse", style="filled", color="#e44d4d"];
+    "Narkotica" [label="Narkotica", shape="ellipse", style="filled", color="#e44d4d"]; //no conozco todos los miembros, hay que preguntar
+    "Grave Situations" [label="Grave Situations", shape="ellipse", style="filled", color="#caff70"];
+    "Destempo si fuera buen grupo" [label="Destempo si fuera buen grupo", shape="ellipse", style="filled", color="#e44d4d"]; //no estoy seguro de si es lo mismo que terapia de garaje
     "??" [label="??", shape="octagon", style="filled", color="#e44d4d"]; //No sé como se llama la banda ni conozco todos los miembros (ni si está viva), hay que preguntar
-    "Martillo" [label="Martillo", shape="hexagon", style="filled", color="#00bfff"]; //era nombre provisional creo que está registrada con otro (luego busco)
-    "Tranny Cvntbag" [label="Tranny Cvntbag", shape="hexagon", style="filled", color="#00bfff"];
-    "Incandescent Partner" [label="TIncandescent Partner", shape="hexagon", style="filled", color="#00bfff"];
+    "Martillo" [label="Martillo", shape="ellipse", style="filled", color="#00bfff"]; //era nombre provisional creo que está registrada con otro (luego busco)
+    "Tranny Cvntbag" [label="Tranny Cvntbag", shape="ellipse", style="filled", color="#00bfff"];
+    "Incandescent Partner" [label="TIncandescent Partner", shape="ellipse", style="filled", color="#00bfff"];
     "Void's Legion" [label="Void's Legion", shape="octagon", style="filled", color="#caff70"]; //ni idea sobre este grupo xd (investigar)
-    "Los muchachosaurios" [label="Los muchachosaurios", shape="hexagon", style="filled", color="#e44d4d"]; //estoy por no poner esta banda
+    "Los muchachosaurios" [label="Los muchachosaurios", shape="ellipse", style="filled", color="#e44d4d"]; //estoy por no poner esta banda
     "Ryggan" [label="Ryggan", shape="octagon", style="filled", color="#caff70"];
     "Deripio" [label="Deripio", shape="octagon", style="filled", color="#caff70"]; 
     "Kulpables" [label="Kulpables", shape="octagon", style="filled", color="#caff70"];
@@ -50,41 +41,38 @@ digraph G {
     "Chakales" [label="Chakales", shape="octagon", style="filled", color="#caff70"];
     "Virginia Coast" [label="Virginia Coast", shape="octagon", style="filled", color="#caff70"];
     "Katharsis" [label="Katharsis", shape="octagon", style="filled", color="#caff70"];
-    "Vitor" [label="Vitor", shape="hexagon", style="filled", color="#e44d4d"];
+    "Vitor" [label="Vitor", shape="ellipse", style="filled", color="#e44d4d"];
     "Pacific Kills" [label="Pacific Kills", shape="octagon", style="filled", color="#caff70"];
-    "Olympus" [label="Olympus", shape="hexagon", style="filled", color="#e44d4d"];
-    "Sobako" [label="Olympus", shape="hexagon", style="filled", color="#e44d4d"];
-    "Iron Killers" [label="Pacific Kills", shape="hexagon", style="filled", color="#caff70"];
+    "Olympus" [label="Olympus", shape="ellipse", style="filled", color="#e44d4d"];
+    "Sobako" [label="Olympus", shape="ellipse", style="filled", color="#e44d4d"];
+    "Iron Killers" [label="Pacific Kills", shape="ellipse", style="filled", color="#caff70"];
+    "Scratch" [label="Scratch", shape "ellipse", style= "filled", color="#caff70"] //Pablo Manu DiegoAlejandro
+    "Rabia Civil" [label="Rabia Civil", shape "ellipse", style= "filled", color="#caff70"] //DiegoAlejandro Zero
 
-    //Sin terminar
-    "Scratch" //Pablo Manu DiegoAlejandro
-    "RabiaCivil" //DiegoAlejandro Zero 
-    "NoisyRequiem" //AlbaLodBrok EmmaCyano DavidPX MiguelAmputación
-    
-    //Gallegas:
-    "Buzkashi" //EstebanCouto RodrigoCotar PabloCorbillón
-    "Pablo y los Ciervos Dorados" //PabloCorbillón MaximoLetal NekanePellón IriaDopazo ElenaCorbillón Muellín AdánDeCaroi EllaLosMuyFrágil GabrielSaitto
-    "Carne Blanca" //PabloCorbillón Noidentificado
-    "Los Muy Frágil" //EllaLosMuyFrágil Noidentificado
-    "DJ Dinero" //PabloCorbillón ManuelFariñaCasares
-    "Samba Fuego" //PabloCorbillón Muellín ElenaCorbillón
-    "Columna Vegana" //PabloCorbillón Noidentificado
-    "Los Fuzz Faces" //RodrigoCotar ManuelFariñaCasares ÓscarGallagher YagoAlarcónCarballa  PedroIgorMartínez(ya no está)
-    "CarpoTributo" //RodrigoCotar NicoGatoPerdido CristianCastroMoro
-    "Niño Verdugo" //NicoGatoPerdido JorgeAndrésSerrano
-    "Ulex" //Mosnica Quintela XianCastro Tomasiño  ESTUVO @hoviteha alias yaidukar(rojo) (lo conocen karmen y karmiña)
-    
-    "La DGT" //ÓscarDGT YoelDGT MiguelDGT
-    "Los super menas"
-    "Eskravos" //EloiAbaloduro Uxía Noidentificado Noidentificado Noidentificado NoaLópez?
-    "Brigada Moreneta" //OtPascual Noidentificado Noidentificado Noidentificado
-    "Hollow Empty Minds" //OtPascual MarcRamírezCañabate HenrySalvat VíctorTorrent Noidentificado
-    "Blowfuse" //HenrySalvat SergiBouffard ÓscarPuig Noidentificado
-    "Dr.X" //AlbaKarry AlexanderErtack Mayer VíctorTorrent
-    "Atomik Funk" //VíctorTorrent MarcBernadCasanova IñakiRamos PauAncunya Noidentificado Noidentificado
-    "Uxue" //VíctorTorrent ÉricCelias MartíCosta UxueSouto
-    "Curos" //Vernat LluísBorrell
+    //"NoisyRequiem" //AlbaLodBrok EmmaCyano DavidPX MiguelAmputación
+    "Buzkashi" [label="Buzkashi", shape="ellipse", style="filled", color="#caff70"];
+    "Pablo y los Ciervos Dorados" [label="Pablo y los Ciervos Dorados", shape="ellipse", style="filled", color="#caff70"];
+    "Carne Blanca" [label="Carne Blanca", shape="ellipse", style="filled", color="#caff70"];
+    "Los Muy Frágil" [label="Los Muy Frágil", shape="ellipse", style="filled", color="#caff70"];
+    "DJ Dinero" [label="DJ Dinero", shape="ellipse", style="filled", color="#caff70"];
+    "Samba Fuego" [label="Samba Fuego", shape="ellipse", style="filled", color="#caff70"];
+    "Columna Vegana" [label="Columna Vegana", shape="ellipse", style="filled", color="#caff70"];
+    "Los Fuzz Faces" [label="Los Fuzz Faces", shape="ellipse", style="filled", color="#caff70"];
+    "CarpoTributo" [label="CarpoTributo", shape="ellipse", style="filled", color="#caff70"];
+    "Niño Verdugo" [label="Niño Verdugo", shape="ellipse", style="filled", color="#caff70"];
+    "Ulex" [label="Ulex", shape="ellipse", style="filled", color="#caff70"];
 
+    "La DGT" [label="La DGT", shape="ellipse", style="filled", color="#caff70"];
+    "Eskravos" [label="Eskravos", shape="ellipse", style="filled", color="#caff70"];
+    "Brigada Moreneta" [label="Brigada Moreneta", shape="ellipse", style="filled", color="#caff70"];
+    "Hollow Empty Minds" [label="Hollow Empty Minds", shape="ellipse", style="filled", color="#caff70"];
+    "Blowfuse" [label="Blowfuse", shape="ellipse", style="filled", color="#caff70"];
+    "Dr.X" [label="Dr.X", shape="ellipse", style="filled", color="#caff70"];
+    "Atomik Funk" [label="Atomik Funk", shape="ellipse", style="filled", color="#caff70"];
+    "Uxue" [label="Uxue", shape="ellipse", style="filled", color="#caff70"];
+    "Curos" [label="Curos", shape="ellipse", style="filled", color="#caff70"];
+
+    /*
     //Del jodido MarcBernadCasanova:(BCN todo)
     "Samscares" //MarcBernadCasanova Noidentificado Noidentificado Noidentificado
     "TH3 CLIMB" //MarcBernadCasanova AndreuRuno Lyca RaTache(31k seguidores, ya no está) AlejandroCalatrava MarioXZone(ya no está) AaronCarrasco
@@ -135,9 +123,11 @@ digraph G {
     "A Light In The Sea" //PatriciaGonzálezCabaleiro AlánNight
     
     "Gracias Por Nada" //SergioMC AlbertoMouriñoAlmeida MiguelMouriñoAlmeida
-
+    */
 
     // Miembros
+    "NoIdentificado" [label="NoIdentificado", shape="box", style="filled", color="pink"];
+
     "Luis" [label="Luis", shape="box", style="filled", color="grey"]; //dianho - feiticeira - rimshot
     "Iván" [label="Iván", shape="box", style="filled", color="grey"]; //dianho
     "Karmen" [label="Karmen", shape="box", style="filled", color="grey"]; //dianho - martillo - nadsat
@@ -231,8 +221,8 @@ digraph G {
 
     "LeoPozo" [label="LeoPozo", shape="box", style="filled", color="grey"] //ryggan
     "Ryzos" [label="Ryzos", shape="box", style="filled", color="grey"] //ryggan
-    "AdriPantera" [label="AdriPantera", shape="box", style="filled", color="grey"] //ryggan - deripio
-    // cambiar AdriPanteras por AdrianEsobar
+    "AdriEscobar" [label="AdriEscobar", shape="box", style="filled", color="grey"] //ryggan - deripio
+    // cambiar AdriEscobars por AdrianEsobar
 
     "PabloNicholas" [label="PabloNicholas", shape="box", style="filled", color="grey"] //deripio
     "RobertMatei" [label="RobertMatei", shape="box", style="filled", color="grey"] //deripio
@@ -277,9 +267,10 @@ digraph G {
     "DaniEdrich" [label="DaniEdrich", shape="box", style="filled", color="grey"] //katharsis
     "SoyaCedo" [label="SoyaCedo", shape="box", style="filled", color="grey"] //katharsis
 
-    "EduMurillo" [label="EduMurillo", shape="box", style="filled", color="grey"] //no name
-    "Roy" [label="Roy", shape="box", style="filled", color="grey"] //no name
-    "Héctor"  [label="Héctor", shape="box", style="filled", color="grey"] //no name
+    "EduMurillo" [label="EduMurillo", shape="box", style="filled", color="grey"] //Vitor, Iron Killers
+    "Roy" [label="Roy", shape="box", style="filled", color="grey"] //Vitor(en rojo)
+    "Héctor"  [label="Héctor", shape="box", style="filled", color="grey"] //Vitor
+    "VíctorVitor" [label="VíctorVitor", shape="box", style="filled", color="grey"] //Vitor
 
     "Acei" [label="Acei", shape="box", style="filled", color="grey"] //pacific kills - olympus
     "PaxTv" [label="PaxTv", shape="box", style="filled", color="grey"] //pacific kills
@@ -295,6 +286,66 @@ digraph G {
     "Paco" [label="Paco", shape="box", style="filled", color="grey"] //iron killers
     "JuaTarrus" [label="JuaTarrus", shape="box", style="filled", color="grey"] //iron killers
     "Diejunkher" [label="Diejunkher", shape="box", style="filled", color="grey"] //iron killers
+
+    "EstebanCouto" [label="EstebanCouto", shape="box", style="filled", color="grey"] //Buzkashi
+    "RodrigoCotar" [label="RodrigoCotar", shape="box", style="filled", color="grey"] //Buzkashi - Los Fuzz Faces - CarpoTributo
+    "PabloCorbillón" [label="PabloCorbillón", shape="box", style="filled", color="grey"] //Buzkashi - Pablo y los Ciervos Dorados - Dj Dinero - Samba Fuego - Columna Vegana
+
+    "MaximoLetal" [label="MaximoLetal", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "NekanePellón" [label="NekanePellón", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "IriaDopazo" [label="IriaDopazo", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "ElenaCorbillón" [label="ElenaCorbillón", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "Muellín" [label="Muellín", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "AdánDeCaroi" [label="AdánDeCaroi", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "EllaLosMuyFrágil" [label="EllaLosMuyFrágil", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "GabrielSaitto" [label="GabrielSaitto", shape="box", style="filled", color="grey"] //Pablo y los Ciervos Dorados
+    "ManuelFariñaCasares" [label="ManuelFariñaCasares", shape="box", style="filled", color="grey"] //DJ Dinero - Los fuzz faces
+
+
+    "YagoAlarcónCarballa" [label="YagoAlarcónCarballa", shape="box", style="filled", color="grey"] //Los Fuzz Faces
+    "PedroIgorMartínez" [label="PedroIgorMartínez", shape="box", style="filled", color="grey"] //Los Fuzz Faces
+
+    "NicoGatoPerdido" [label="NicoGatoPerdido", shape="box", style="filled", color="grey"] //CarpoTributo - Niño Verdugo
+    "CristianCastroMoro" [label="CristianCastroMoro", shape="box", style="filled", color="grey"] //CarpoTributo
+
+    "JorgeAndrésSerrano" [label="JorgeAndrésSerrano", shape="box", style="filled", color="grey"] //Niño Verdugo
+
+    "Mosnica" [label="Mosnica", shape="box", style="filled", color="grey"] //Ulex
+    "Quintela" [label="Quintela", shape="box", style="filled", color="grey"] //Ulex
+    "XianCastro" [label="XianCastro", shape="box", style="filled", color="grey"] //Ulex
+    "Tomasiño" [label="Tomasiño", shape="box", style="filled", color="grey"] //Ulex
+    "hoviteha" [label="hoviteha", shape="box", style="filled", color="grey"] //Ulex
+
+    "ÓscarDGT" [label="ÓscarDGT", shape="box", style="filled", color="grey"] //La DGT
+    "YoelDGT" [label="YoelDGT", shape="box", style="filled", color="grey"] //La DGT
+    "MiguelDGT" [label="MiguelDGT", shape="box", style="filled", color="grey"] //La DGT
+    
+    "EloiAbaloduro" [label="EloiAbaloduro", shape="box", style="filled", color="grey"] //Eskravos
+    "Uxía" [label="Uxía", shape="box", style="filled", color="grey"] //Eskravos
+    "NoaLópez" [label="NoaLópez", shape="box", style="filled", color="grey"] //Eskravos
+
+    "OtPascual" [label="OtPascual", shape="box", style="filled", color="grey"] //Brigada Moreneta - Hollow Empty Minds
+    "MarcRamírezCañabate" [label="MarcRamírezCañabate", shape="box", style="filled", color="grey"] //Hollow Empty Minds
+    "HenrySalvat" [label="HenrySalvat", shape="box", style="filled", color="grey"] //Hollow Empty Minds - Blowfuse
+    "VíctorTorrent" [label="VíctorTorrent", shape="box", style="filled", color="grey"] //Vontade Trio
+
+    "SergiBouffard" [label="SergiBouffard", shape="box", style="filled", color="grey"] //Blowfuse
+    "ÓscarPuig" [label="ÓscarPuig", shape="box", style="filled", color="grey"] //Blowfuse
+
+    "AlbaKarry" [label="AlbaKarry", shape="box", style="filled", color="grey"] //Dr.X
+    "AlexanderErtack" [label="AlexanderErtack", shape="box", style="filled", color="grey"] //Dr.X
+    "Mayer" [label="Mayer", shape="box", style="filled", color="grey"] //Dr.X
+
+    "MarcBernadCasanova" [label="MarcBernadCasanova", shape="box", style="filled", color="grey"] //Samscares - TH3 CLIMB - Zefir
+    "IñaquiRamos" [label="IñaquiRamos", shape="box", style="filled", color="grey"] //Vontade Trio - Zigurat
+    "PauAncunya" [label="PauAncunya", shape="box", style="filled", color="grey"] //Los Painas
+    
+    "EricCelias" [label="EricCelias", shape="box", style="filled", color="grey"] //Zigurat
+    "MartíCosta" [label="MartíCosta", shape="box", style="filled", color="grey"] //Zigurat
+    "UxueSouto" [label="UxueSouto", shape="box", style="filled", color="grey"] //Zigurat
+    
+    "Vernat" [label="Vernat", shape="box", style="filled", color="grey"] //Curos
+    "LluísBorrell" [label="LluísBorrell", shape="box", style="filled", color="grey"] //Curos
 
 
     // Conexiones con estilo especificado
@@ -467,13 +518,13 @@ digraph G {
     "Los muchachosaurios" -> "Correa" [label=" ", color="red", arrowhead="dot"];
     //xd esta banda
 
-    "Ryggan" -> "AdriPantera" [label=" ", color="green", arrowhead="dot"];
+    "Ryggan" -> "AdriEscobar" [label=" ", color="green", arrowhead="dot"];
     "Ryggan" -> "LeoPozo" [label=" ", color="green", arrowhead="dot"];
     "Ryggan" -> "Ryzos" [label=" ", color="green", arrowhead="dot"];
 
     "Deripio" -> "PabloNicholas" [label=" ", color="green", arrowhead="dot"];
     "Deripio" -> "Andrés" [label=" ", color="green", arrowhead="dot"];
-    "Deripio" -> "AdriPantera" [label=" ", color="green", arrowhead="dot"];
+    "Deripio" -> "AdriEscobar" [label=" ", color="green", arrowhead="dot"];
     "Deripio" -> "RobertMatei" [label=" ", color="green", arrowhead="dot"];
 
     "Kulpables" -> "IkerE" [label=" ", color="green", arrowhead="dot"];
@@ -544,6 +595,118 @@ digraph G {
     "Iron Killers" -> "JuaTarrus" [label=" ", color="green", arrowhead="dot"];
     "Iron Killers" -> "Diejunkher" [label=" ", color="green", arrowhead="dot"];
     "Iron Killers" -> "EduMurillo" [label=" ", color="green", arrowhead="dot"];
+
+    "Vitor" -> "EduMurillo" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "Roy" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "Héctor" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "VíctorVitor" [label=" ", color="red", arrowhead="dot"];
+    "Vitor" -> "Santo" [label=" ", color="red", arrowhead="dot"];
+
+    "Iron Killers" -> "EduMurillo" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "Dani" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "Paco" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "JuaTarrus" [label=" ", color="green", arrowhead="dot"];
+    "Iron Killers" -> "Diejunkher" [label=" ", color="green", arrowhead="dot"];
+
+    //EstebanCouto RodrigoCotar PabloCorbillón
+    "Buzkashi" -> "EstebanCouto" [label=" ", color="green", arrowhead="dot"];
+    "Buzkashi" -> "RodrigoCotar" [label=" ", color="green", arrowhead="dot"];
+    "Buzkashi" -> "PabloCorbillón" [label=" ", color="green", arrowhead="dot"];
+
+    //PabloCorbillón MaximoLetal NekanePellón IriaDopazo ElenaCorbillón Muellín AdánDeCaroi EllaLosMuyFrágil GabrielSaitto
+    "Pablo y los Ciervos Dorados" -> "PabloCorbillón" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "MaximoLetal" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "NekanePellón" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "IriaDopazo" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "ElenaCorbillón" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "Muellín" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "AdánDeCaroi" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "EllaLosMuyFrágil" [label=" ", color="green", arrowhead="dot"];
+    "Pablo y los Ciervos Dorados" -> "GabrielSaitto" [label=" ", color="green", arrowhead="dot"];
+
+    "Carne Blanca" -> "PabloCorbillón" [label=" ", color="green", arrowhead="dot"];
+    "Carne Blanca" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
     
+    "Los Muy Frágil" -> "EllaLosMuyFrágil" [label=" ", color="green", arrowhead="dot"];
+    "Los Muy Frágil" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+
+    "DJ Dinero" -> "PabloCorbillón" [label=" ", color="green", arrowhead="dot"];
+    "DJ Dinero" -> "ManuelFariñaCasares" [label=" ", color="green", arrowhead="dot"];
+
+    "Samba Fuego" -> "PabloCorbillón" [label=" ", color="green", arrowhead="dot"];
+    "Samba Fuego" -> "Muellín" [label=" ", color="green", arrowhead="dot"];
+    "Samba Fuego" -> "ElenaCorbillón" [label=" ", color="green", arrowhead="dot"];
+
+    "Columna Vegana" -> "PabloCorbillón" [label=" ", color="green", arrowhead="dot"];
+    "Columna Vegana" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+
+    "Los Fuzz Faces" -> "RodrigoCotar" [label=" ", color="green", arrowhead="dot"];
+    "Los Fuzz Faces" -> "ManuelFariñaCasares" [label=" ", color="green", arrowhead="dot"];
+    "Los Fuzz Faces" -> "ÓscarGallagher" [label=" ", color="green", arrowhead="dot"];
+    "Los Fuzz Faces" -> "YagoAlarcónCarballa" [label=" ", color="green", arrowhead="dot"];
+    "Los Fuzz Faces" -> "PedroIgorMartínez" [label=" ", color="red", arrowhead="dot"];
+    "Los Fuzz Faces" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+
+    "CarpoTributo" -> "RodrigoCotar" [label=" ", color="green", arrowhead="dot"];
+    "CarpoTributo" -> "NicoGatoPerdido" [label=" ", color="green", arrowhead="dot"];
+    "CarpoTributo" -> "CristianCastroMoro" [label=" ", color="green", arrowhead="dot"];
+    
+    "Niño Verdugo" -> "NicoGatoPerdido" [label=" ", color="green", arrowhead="dot"];
+    "Niño Verdugo" -> "JorgeAndrésSerrano" [label=" ", color="green", arrowhead="dot"];
+
+    "Ulex" -> "Mosnica" [label=" ", color="green", arrowhead="dot"];
+    "Ulex" -> "Quintela" [label=" ", color="green", arrowhead="dot"];
+    "Ulex" -> "XianCastro" [label=" ", color="green", arrowhead="dot"];
+    "Ulex" -> "Tomasiño" [label=" ", color="green", arrowhead="dot"];
+    "Ulex" -> "hoviteha" [label=" ", color="red", arrowhead="dot"];
+
+    "La DGT" -> "ÓscarDGT" [label=" ", color="green", arrowhead="dot"];
+    "La DGT" -> "YoelDGT" [label=" ", color="green", arrowhead="dot"];
+    "La DGT" -> "MiguelDGT" [label=" ", color="green", arrowhead="dot"];
+
+    "Los super menas" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    
+    "Eskravos" -> "EloiAbaloduro" [label=" ", color="green", arrowhead="dot"];
+    "Eskravos" -> "Uxía" [label=" ", color="green", arrowhead="dot"];
+    "Eskravos" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    "Eskravos" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    "Eskravos" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    "Eskravos" -> "NoaLópez" [label=" ", color="green", arrowhead="dot"];
+
+    "Brigada Moreneta" -> "OtPascual" [label=" ", color="green", arrowhead="dot"];
+    "Brigada Moreneta" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    "Brigada Moreneta" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    "Brigada Moreneta" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+
+    "Hollow Empty Minds" -> "OtPascual" [label=" ", color="green", arrowhead="dot"];
+    "Hollow Empty Minds" -> "MarcRamírezCañabate" [label=" ", color="green", arrowhead="dot"];
+    "Hollow Empty Minds" -> "HenrySalvat" [label=" ", color="green", arrowhead="dot"];
+    "Hollow Empty Minds" -> "VíctorTorrent" [label=" ", color="green", arrowhead="dot"];
+    "Hollow Empty Minds" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    
+    "Blowfuse" -> "HenrySalvat" [label=" ", color="green", arrowhead="dot"];
+    "Blowfuse" -> "SergiBouffard" [label=" ", color="green", arrowhead="dot"];
+    "Blowfuse" -> "ÓscarPuig" [label=" ", color="green", arrowhead="dot"];
+    "Blowfuse" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+
+    "Dr.X" -> "AlbaKarry" [label=" ", color="green", arrowhead="dot"];
+    "Dr.X" -> "AlexanderErtack" [label=" ", color="green", arrowhead="dot"];
+    "Dr.X" -> "Mayer" [label=" ", color="green", arrowhead="dot"];
+    "Dr.X" -> "VíctorTorrent" [label=" ", color="green", arrowhead="dot"];
+    
+    "Atomik Funk" -> "VíctorTorrent" [label=" ", color="green", arrowhead="dot"];
+    "Atomik Funk" -> "MarcBernadCasanova" [label=" ", color="green", arrowhead="dot"];
+    "Atomik Funk" -> "IñakiRamos" [label=" ", color="green", arrowhead="dot"];
+    "Atomik Funk" -> "PauAncunya" [label=" ", color="green", arrowhead="dot"];
+    "Atomik Funk" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    "Atomik Funk" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+
+    "Uxue" -> "VíctorTorrent" [label=" ", color="green", arrowhead="dot"];
+    "Uxue" -> "ÉricCelias" [label=" ", color="green", arrowhead="dot"];
+    "Uxue" -> "MartíCosta" [label=" ", color="green", arrowhead="dot"];
+    "Uxue" -> "UxueSouto" [label=" ", color="green", arrowhead="dot"];
+    
+    "Curos" -> "Vernat" [label=" ", color="green", arrowhead="dot"];
+    "Curos" -> "LluísBorrell" [label=" ", color="green", arrowhead="dot"];
 }
 
