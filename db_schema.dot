@@ -46,8 +46,8 @@ digraph G {
     "Olympus" [label="Olympus", shape="ellipse", style="filled", color="#e44d4d"];
     "Sobako" [label="Olympus", shape="ellipse", style="filled", color="#e44d4d"];
     "Iron Killers" [label="Pacific Kills", shape="ellipse", style="filled", color="#caff70"];
-    "Scratch" [label="Scratch", shape "ellipse", style= "filled", color="#caff70"] //Pablo Manu DiegoAlejandro
-    "Rabia Civil" [label="Rabia Civil", shape "ellipse", style= "filled", color="#caff70"] //DiegoAlejandro Zero
+    "Scratch" [label="Scratch", shape="ellipse", style= "filled", color="#caff70"] //Pablo Manu DiegoAlejandro
+    "Rabia Civil" [label="Rabia Civil", shape="ellipse", style= "filled", color="#caff70"] //DiegoAlejandro Zero
 
     //"NoisyRequiem" //AlbaLodBrok EmmaCyano DavidPX MiguelAmputación
     "Buzkashi" [label="Buzkashi", shape="ellipse", style="filled", color="#caff70"];
