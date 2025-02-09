@@ -19,18 +19,18 @@ digraph G {
     "Bushter" [label="Bushter", shape="ellipse", style="filled", color="#00bfff"];
     "Terapia de garaje" [label="Terapia de garaje", shape="ellipse", style="filled", color="#e44d4d"];
     "Jester Day" [label="Jester day", shape="octagon", style="filled", color="#caff70"];
-    "Polla y cojones" [label="Polla y cojones", shape="octagon", style="filled", color="#caff70"]; //nombre provisional aparentemente
+    "Ape Habit" [label="Ape Habit", shape="octagon", style="filled", color="#caff70"];
     "Lilith" [label="Lilith", shape="octagon", style="filled", color="#caff70"];
     "West Bat" [label="WestBat", shape="ellipse", style="filled", color="#e44d4d"];
     "Scarlet Down" [label="Scarlet Down", shape="ellipse", style="filled", color="#e44d4d"];
     "Narkotica" [label="Narkotica", shape="ellipse", style="filled", color="#e44d4d"]; //no conozco todos los miembros, hay que preguntar
     "Grave Situations" [label="Grave Situations", shape="ellipse", style="filled", color="#caff70"];
     "Destempo si fuera buen grupo" [label="Destempo si fuera buen grupo", shape="ellipse", style="filled", color="#e44d4d"]; //no estoy seguro de si es lo mismo que terapia de garaje
-    "??" [label="??", shape="octagon", style="filled", color="#e44d4d"]; //No sé como se llama la banda ni conozco todos los miembros (ni si está viva), hay que preguntar
+    "Efecto Kuleshov" [label="Efecto Kuleshov", shape="octagon", style="filled", color="#e44d4d"];
     "Martillo" [label="Martillo", shape="ellipse", style="filled", color="#00bfff"]; //era nombre provisional creo que está registrada con otro (luego busco)
     "Tranny Cvntbag" [label="Tranny Cvntbag", shape="ellipse", style="filled", color="#00bfff"];
     "Incandescent Partner" [label="TIncandescent Partner", shape="ellipse", style="filled", color="#00bfff"];
-    "Void's Legion" [label="Void's Legion", shape="octagon", style="filled", color="#caff70"]; //ni idea sobre este grupo xd (investigar)
+    "Void's Legion" [label="Void's Legion", shape="octagon", style="filled", color="#caff70"]; //aun hay que investigar
     "Los muchachosaurios" [label="Los muchachosaurios", shape="ellipse", style="filled", color="#e44d4d"]; //estoy por no poner esta banda
     "Ryggan" [label="Ryggan", shape="octagon", style="filled", color="#caff70"];
     "Deripio" [label="Deripio", shape="octagon", style="filled", color="#caff70"]; 
@@ -153,7 +153,7 @@ digraph G {
     "Pol" [label="Pol", shape="box", style="filled", color="grey"]; //denantes - Los muchachosaurios
     "LauraD" [label="LauraD", shape="box", style="filled", color="grey"]; //denantes
     "Alan" [label="Alan", shape="box", style="filled", color="grey"]; //denantes - incandescent partner - gorth
-    "Cesar" [label="Cesar", shape="box", style="filled", color="grey"]; //denantes - ??
+    "Cesar" [label="Cesar", shape="box", style="filled", color="grey"]; //denantes - Efecto Kuleshov
 
     "Dante" [label="Dante", shape="box", style="filled", color="grey"]; //in vitro
 
@@ -162,11 +162,10 @@ digraph G {
     "Antón" [label="Antón", shape="box", style="filled", color="grey"]; //kathartic
     "Elvis" [label="Elvis", shape="box", style="filled", color="grey"]; //kathartic - voids legion
 
-    "Manu" [label="Manu", shape="box", style="filled", color="grey"] //destempo - ?? - terapia de garaje 
-    "Ricardo" [label="Ricardo", shape="box", style="filled", color="grey"] //destempo - polla y cojones - terapia de garaje 
-    "Lino" [label="Lino", shape="box", style="filled", color="grey"] //destempo - polla y cojones
+    "Manu" [label="Manu", shape="box", style="filled", color="grey"] //destempo - Efecto Kuleshov - terapia de garaje 
+    "Ricardo" [label="Ricardo", shape="box", style="filled", color="grey"] //destempo - ape habit - terapia de garaje 
+    "Lino" [label="Lino", shape="box", style="filled", color="grey"] //destempo - ape habit
     "Ahinoa" [label="Ahinoa", shape="box", style="filled", color="grey"] //destempo
-    "Claudia" [label="Claudia", shape="box", style="filled", color="grey"] //destempo
 
     "Brais" [label="Brais", shape="box", style="filled", color="grey"] //mamasunción
     "BraisB" [label="BraisB", shape="box", style="filled", color="grey"] //mamasunción
@@ -196,23 +195,28 @@ digraph G {
     "Amelia" [label="Amelia", shape="box", style="filled", color="grey"] //nadsat
     "Javi" [label="Javi", shape="box", style="filled", color="grey"] //nadsat - jester day
 
-    "???" [label="???", shape="box", style="filled", color="grey"] //terapia de garaje
+    "Xabel" [label="Xabel", shape="box", style="filled", color="grey"] //terapia de garaje
     "Breogán" [label="Breogán", shape="box", style="filled", color="grey"] //terapia de garaje
 
-    "Hugo" [label="Hugo", shape="box", style="filled", color="grey"] //polla y cojones
+    "Hugo" [label="Hugo", shape="box", style="filled", color="grey"] //ape habit
 
     "Iago" [label="Iago", shape="box", style="filled", color="grey"] //west bat
 
-    "????" [label="????", shape="box", style="filled", color="grey"] //narkotica
+    "Endi" [label="Endi", shape="box", style="filled", color="grey"] //narkotica
 
-    "Haize" [label="????", shape="box", style="filled", color="grey"] //grave situations
-    "Pablonibe" [label="????", shape="box", style="filled", color="grey"] //grave situations
+    "Haize" [label="Haize", shape="box", style="filled", color="grey"] //grave situations
+    "Pablonibe" [label="Pablonibe", shape="box", style="filled", color="grey"] //grave situations
 
     "Oli" [label="Oli", shape="box", style="filled", color="grey"] //destempo si fuera buen grupo - tranny cvntbag
 
-    "Monoperro" [label="Monoperro", shape="box", style="filled", color="grey"] //??
+    "Tristán" [label="Tristán", shape="box", style="filled", color="grey"] //Efecto Kuleshov
 
     "Aythami" [label="Aythami", shape="box", style="filled", color="grey"] //Martillo
+
+    "Mike" [label="Mike", shape="box", style="filled", color="grey"] //voids legion
+    "Eme" [label="Eme", shape="box", style="filled", color="grey"] //voids legion
+    "Dyable" [label="Dyable", shape="box", style="filled", color="grey"] //voids legion
+    "???" [label="???", shape="box", style="filled", color="grey"] //voids legion
 
     "Tolleito" [label="Tolleito", shape="box", style="filled", color="grey"] //tranny cvntbag
 
@@ -280,7 +284,7 @@ digraph G {
     "Tommy" [label="Tommy", shape="box", style="filled", color="grey"] //olympus
     "?" [label="?", shape="box", style="filled", color="grey"] //olympus
 
-    "MariachiC" [label="?", shape="box", style="filled", color="grey"] //sobako
+    "MariachiC" [label="MariachiC", shape="box", style="filled", color="grey"] //sobako
 
     "Dani" [label="Dani", shape="box", style="filled", color="grey"] //iron killers
     "Paco" [label="Paco", shape="box", style="filled", color="grey"] //iron killers
@@ -317,7 +321,7 @@ digraph G {
     "hoviteha" [label="hoviteha", shape="box", style="filled", color="grey"] //Ulex
 
     "ÓscarDGT" [label="ÓscarDGT", shape="box", style="filled", color="grey"] //La DGT
-    "YoelDGT" [label="YoelDGT", shape="box", style="filled", color="grey"] //La DGT
+    "Yoel" [label="Yoel", shape="box", style="filled", color="grey"] //La DGT
     "MiguelDGT" [label="MiguelDGT", shape="box", style="filled", color="grey"] //La DGT
     
     "EloiAbaloduro" [label="EloiAbaloduro", shape="box", style="filled", color="grey"] //Eskravos
@@ -397,7 +401,6 @@ digraph G {
     "Des/tempo" -> "Ricardo" [label=" ", color="red", arrowhead="dot"];
     "Des/tempo" -> "Lino" [label=" ", color="red", arrowhead="dot"];
     "Des/tempo" -> "Ahinoa" [label=" ", color="red", arrowhead="dot"];
-    "Des/tempo" -> "Claudia" [label=" ", color="red", arrowhead="dot"];
 
     "Mamasuncion" -> "Brais" [label=" ", color="green", arrowhead="dot"];
     "Mamasuncion" -> "BraisB" [label=" ", color="red", arrowhead="dot"];
@@ -455,14 +458,14 @@ digraph G {
     "Terapia de garaje" -> "Breogán" [label=" ", color="red", arrowhead="dot"];
     "Terapia de garaje" -> "Ricardo" [label=" ", color="red", arrowhead="dot"];
     "Terapia de garaje" -> "Karmiña" [label=" ", color="red", arrowhead="dot"];
-    "Terapia de garaje" -> "???" [label=" ", color="red", arrowhead="dot"]; //preguntar por este
+    "Terapia de garaje" -> "Xabel" [label=" ", color="red", arrowhead="dot"];
 
     "Jester Day" -> "Javi" [label=" ", color="green", arrowhead="dot"];
     "Jester Day" -> "BrunoB" [label=" ", color="green", arrowhead="dot"];
 
-    "Polla y cojones" -> "Lino" [label=" ", color="green", arrowhead="dot"];
-    "Polla y cojones" -> "Ricardo" [label=" ", color="green", arrowhead="dot"];
-    "Polla y cojones" -> "Hugo" [label=" ", color="green", arrowhead="dot"]; //No se llama Hugo xd
+    "Ape Habit" -> "Lino" [label=" ", color="green", arrowhead="dot"];
+    "Ape Habit" -> "Ricardo" [label=" ", color="green", arrowhead="dot"];
+    "Ape Habit" -> "Hugo" [label=" ", color="green", arrowhead="dot", len="0.5"];
 
     "Lilith" -> "Lia" [label=" ", color="green", arrowhead="dot"];
     "Lilith" -> "Farto" [label=" ", color="green", arrowhead="dot"];
@@ -476,7 +479,7 @@ digraph G {
     "Scarlet Down" -> "Lia" [label=" ", color="red", arrowhead="dot"];
 
     "Narkotica" -> "Alex" [label=" ", color="red", arrowhead="dot"];
-    "Narkotica" -> "????" [label=" ", color="red", arrowhead="dot"]; //preguntar por este
+    "Narkotica" -> "Endi" [label=" ", color="red", arrowhead="dot"]; //preguntar por este
 
     "Grave Situations" -> "Haize" [label=" ", color="red", arrowhead="dot"];
     "Grave Situations" -> "Jorge" [label=" ", color="red", arrowhead="dot"];
@@ -486,17 +489,16 @@ digraph G {
     "Destempo si fuera buen grupo" -> "Oli" [label=" ", color="red", arrowhead="dot"];
     "Destempo si fuera buen grupo" -> "Ivo" [label=" ", color="red", arrowhead="dot"];
 
-    "??" -> "Cesar" [label=" ", color="red", arrowhead="dot"];
-    "??" -> "Manu" [label=" ", color="red", arrowhead="dot"];
-    "??" -> "Monoperro" [label=" ", color="red", arrowhead="dot"];
-    //preguntar nombre (y si puede ser nombre real del nazi)
+    "Efecto Kuleshov" -> "Cesar" [label=" ", color="red", arrowhead="dot"];
+    "Efecto Kuleshov" -> "Manu" [label=" ", color="red", arrowhead="dot"];
+    "Efecto Kuleshov" -> "Tristán" [label=" ", color="red", arrowhead="dot"];
 
     "Martillo" -> "Ela" [label=" ", color="red", arrowhead="dot"];
     "Martillo" -> "Karmen" [label=" ", color="red", arrowhead="dot"];
     "Martillo" -> "Adrián" [label=" ", color="red", arrowhead="dot"];
     "Martillo" -> "Aythami" [label=" ", color="red", arrowhead="dot"];
 
-    "Tranny Cvntbag" -> "Tolleito" [label=" ", color="green", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Aki" [label=" ", color="green", arrowhead="dot"];
     "Tranny Cvntbag" -> "Abollado" [label=" ", color="green", arrowhead="dot"];
     "Tranny Cvntbag" -> "Oli" [label=" ", color="green", arrowhead="dot"];
     "Tranny Cvntbag" -> "Lia" [label=" ", color="green", arrowhead="dot"];
@@ -510,7 +512,10 @@ digraph G {
     "Incandescent Partner" -> "Alan" [label=" ", color="red", arrowhead="dot"];
 
     "Void's Legion" -> "Elvis" [label=" ", color="green", arrowhead="dot"];
-    //faltan todos los miembros de la banda de este tio
+    "Void's Legion" -> "Mike" [label=" ", color="green", arrowhead="dot"];
+    "Void's Legion" -> "Eme" [label=" ", color="green", arrowhead="dot"];
+    "Void's Legion" -> "Dyable" [label=" ", color="green", arrowhead="dot"];
+    "Void's Legion" -> "NoIdentificado" [label=" ", color="green", arrowhead="dot"];
 
     "Los muchachosaurios" -> "Pol" [label=" ", color="red", arrowhead="dot"];
     "Los muchachosaurios" -> "Farto" [label=" ", color="red", arrowhead="dot"];
@@ -653,6 +658,7 @@ digraph G {
     
     "Niño Verdugo" -> "NicoGatoPerdido" [label=" ", color="green", arrowhead="dot"];
     "Niño Verdugo" -> "JorgeAndrésSerrano" [label=" ", color="green", arrowhead="dot"];
+    "Niño Verdugo" -> "MeloEmo" [label=" ", color="green", arrowhead="dot"];
 
     "Ulex" -> "Mosnica" [label=" ", color="green", arrowhead="dot"];
     "Ulex" -> "Quintela" [label=" ", color="green", arrowhead="dot"];
@@ -661,10 +667,10 @@ digraph G {
     "Ulex" -> "hoviteha" [label=" ", color="red", arrowhead="dot"];
 
     "La DGT" -> "ÓscarDGT" [label=" ", color="green", arrowhead="dot"];
-    "La DGT" -> "YoelDGT" [label=" ", color="green", arrowhead="dot"];
+    "La DGT" -> "Yoel" [label=" ", color="green", arrowhead="dot"];
     "La DGT" -> "MiguelDGT" [label=" ", color="green", arrowhead="dot"];
 
-    "Los super menas" -> "Noidentificado" [label=" ", color="green", arrowhead="dot"];
+    "Los super menas" -> "Yoel" [label=" ", color="green", arrowhead="dot"];
     
     "Eskravos" -> "EloiAbaloduro" [label=" ", color="green", arrowhead="dot"];
     "Eskravos" -> "Uxía" [label=" ", color="green", arrowhead="dot"];
