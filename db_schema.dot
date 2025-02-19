@@ -48,6 +48,7 @@ digraph G {
     "Iron Killers" [label="Pacific Kills", shape="ellipse", style="filled", color="#caff70"];
     "Scratch" [label="Scratch", shape="ellipse", style= "filled", color="#caff70"] //Pablo Manu DiegoAlejandro
     "Rabia Civil" [label="Rabia Civil", shape="ellipse", style= "filled", color="#caff70"] //DiegoAlejandro Zero
+    "Kaliposucción" [label="Kaliposuckicon", shape="octagon", style="filled", color="#caff70"];
 
     //"NoisyRequiem" //AlbaLodBrok EmmaCyano DavidPX MiguelAmputación
     "Buzkashi" [label="Buzkashi", shape="ellipse", style="filled", color="#caff70"];
@@ -714,5 +715,9 @@ digraph G {
     
     "Curos" -> "Vernat" [label=" ", color="green", arrowhead="dot"];
     "Curos" -> "LluísBorrell" [label=" ", color="green", arrowhead="dot"];
+
+    "Kaliposucción" -> "Dorian" [label=" ", color="green", arrowhead="dot"];
+    "Kaliposucción" -> "PabloP" [label=" ", color="green", arrowhead="dot"];
+    "Kaliposucción" -> "Rubén" [label=" ", color="green", arrowhead="dot"];
 }
 
