@@ -374,11 +374,11 @@ digraph G {
     "Martillo" -> "Adrián" [label=" ", color="red", arrowhead="dot"];
     "Martillo" -> "Aythami" [label=" ", color="red", arrowhead="dot"];
 
-    "Tranny Cvntbag" -> "Aki" [label=" ", color="green", arrowhead="dot"];
-    "Tranny Cvntbag" -> "Abollado" [label=" ", color="green", arrowhead="dot"];
-    "Tranny Cvntbag" -> "Oli" [label=" ", color="green", arrowhead="dot"];
-    "Tranny Cvntbag" -> "Lia" [label=" ", color="green", arrowhead="dot"];
-    "Tranny Cvntbag" -> "Victor" [label=" ", color="green", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Aki" [label=" ", color="red", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Abollado" [label=" ", color="red", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Oli" [label=" ", color="red", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Lia" [label=" ", color="red", arrowhead="dot"];
+    "Tranny Cvntbag" -> "Victor" [label=" ", color="red", arrowhead="dot"];
     
     "Incandescent Partner" -> "Sen" [label=" ", color="red", arrowhead="dot"];
     "Incandescent Partner" -> "Sebas" [label=" ", color="red", arrowhead="dot"];
